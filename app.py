@@ -1,4 +1,5 @@
-  # Assuming your chatbot code is in chatbot_api.py
+from flask import Flask, render_template, request, jsonify
+import chatbot_api  # Assuming your chatbot code is in chatbot_api.py
 
 
 
